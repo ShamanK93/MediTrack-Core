@@ -1,6 +1,5 @@
 # MediTrack Core
 
-
 ## Description
 MediTrack Core est une API Back-End pour la gestion des dépôts hospitaliers.  
 Elle centralise les **produits**, les **mouvements de stock** et la **cartographie interne des dépôts**.  
