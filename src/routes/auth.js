@@ -1,6 +1,7 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const authCtrl = require('../controllers/authController');
+const authCtrl = require("../controllers/authController");
+const loginLimiter = require("../middlewares/loginLimiter");
 
 /**
  * @swagger
@@ -39,7 +40,7 @@ const authCtrl = require('../controllers/authController');
  *       400:
  *         description: Paramètres invalides
  */
-router.post('/register', authCtrl.register);
+router.post("/register", authCtrl.register);
 
 /**
  * @swagger
@@ -64,16 +65,9 @@ router.post('/register', authCtrl.register);
  *     responses:
  *       200:
  *         description: Connecté avec succès
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 token:
- *                   type: string
  *       401:
  *         description: Identifiants invalides
  */
-router.post('/login', authCtrl.login);
+router.post("/login", loginLimiter, authCtrl.login);
 
 module.exports = router;
