@@ -1,7 +1,5 @@
 # MediTrack Core
 
-## Auteur
-Samah Ghalloussi
 
 ## Description
 MediTrack Core est une API Back-End pour la gestion des dépôts hospitaliers.  
