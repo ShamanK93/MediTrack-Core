@@ -4,7 +4,7 @@ npm-debug.log
 .env
 
 # MongoDB
-*.lock
+*.lock.backup  # ou *.mongolock si nécessaire
 dump/
 
 # OS
