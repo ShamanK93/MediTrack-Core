@@ -1,0 +1,42 @@
+1. Principe d’encapsulation dans la gestion des produits MediTrack
+-----------------------------------------------------------------
+L’encapsulation consiste à protéger les données d’un objet en les rendant accessibles uniquement via des méthodes dédiées (getter/setter) et non directement.  
+Dans MediTrack, chaque produit possède des informations sensibles comme la quantité, le code ou le prix.  
+- Ces informations sont stockées dans le modèle `produit` et ne peuvent être modifiées directement depuis les routes.  
+- Les contrôleurs utilisent des fonctions pour lire ou mettre à jour ces données, garantissant la cohérence et la sécurité.
+
+Exemple :
+- Pour modifier la quantité d’un produit, on passe par `produitController.updateQuantity(id, newQty)` au lieu de toucher directement la base.
+
+-----------------------------------------------------------------
+
+2. Justification de PostgreSQL pour les mouvements et MongoDB pour la cartographie
+-----------------------------------------------------------------------------------
+- **PostgreSQL** : 
+  - Les mouvements de stock sont des données relationnelles et critiques (produits liés aux dépôts, quantités mises à jour, historique).  
+  - PostgreSQL permet les transactions, les contraintes et l’intégrité référentielle pour éviter les incohérences.  
+
+- **MongoDB** : 
+  - La cartographie interne des dépôts (zones, bacs) est flexible et peut varier d’un dépôt à l’autre.  
+  - Les documents JSON permettent de stocker les zones imbriquées facilement et d’évoluer sans migration complexe.
+
+-----------------------------------------------------------------
+
+3. Stratégie pour éviter les attaques CSRF
+------------------------------------------
+- Utiliser un **token CSRF** envoyé dans les headers pour toutes les requêtes sensibles (POST, PUT, DELETE).  
+- Vérifier ce token côté serveur avant d’exécuter toute modification.  
+- Optionnel : utiliser des **cookies SameSite** pour limiter les requêtes cross-site.
+
+-----------------------------------------------------------------
+
+4. Éléments à inclure dans la documentation Swagger pour POST /mouvements
+--------------------------------------------------------------------------
+- Description de l’endpoint et de son objectif.  
+- **Body JSON attendu** :
+```json
+{
+  "produit_id": 1,
+  "type": "IN",
+  "quantite": 50
+}
