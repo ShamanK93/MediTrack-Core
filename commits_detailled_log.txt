@@ -1,0 +1,123 @@
+Commit: b345cfa | add loginLimiter.js | Fri Nov 14 16:00:27 2025
+src/middlewares/loginLimiter.js
+
+Commit: 09cb029 | modification of auth.js, add login limiter | Fri Nov 14 15:59:34 2025
+src/routes/auth.js
+
+Commit: 213b6aa | modification of README.md, add tests, example, API routes, project structure | Fri Nov 14 15:57:29 2025
+README.md
+
+Commit: 89888b7 | add units | Fri Nov 14 15:17:08 2025
+src/tests/units/auth.test.js
+src/tests/units/mouvement.test.js
+src/tests/units/produit.test.js
+
+Commit: f231782 | add register.png | Fri Nov 14 15:15:41 2025
+src/tests/captures/register.png
+
+Commit: d32f561 | add produits.png | Fri Nov 14 15:15:10 2025
+src/tests/captures/produits.png
+
+Commit: 1868a41 | add tests, captures and login.png | Fri Nov 14 15:14:33 2025
+src/tests/captures/login.png
+
+Commit: 26c549d | modification of package-lock.json, add jest | Fri Nov 14 15:12:41 2025
+package-lock.json
+
+Commit: 4fe8948 | modification of package.json, add jest | Fri Nov 14 15:11:53 2025
+package.json
+
+Commit: dcbf6b4 | modification of package-lock.json, add swagger, bcrypt | Fri Nov 14 14:53:59 2025
+package-lock.json
+
+Commit: c2c2aa2 | modification of package.json, add swagger | Fri Nov 14 14:52:28 2025
+package.json
+
+Commit: 0700b3a | modification of server.js, add swagger | Fri Nov 14 14:51:04 2025
+server.js
+
+Commit: 7a867b6 | modification of index.js add swagger | Fri Nov 14 14:50:01 2025
+src/routes/index.js
+
+Commit: 169398c | modification of .env.example, add jwt secret key | Fri Nov 14 14:49:03 2025
+.env.example
+
+Commit: b626070 | add auth.js | Fri Nov 14 14:47:37 2025
+src/routes/auth.js
+
+Commit: 2b06359 | add isAdmin.js | Fri Nov 14 14:47:03 2025
+src/middlewares/isAdmin.js
+
+Commit: 4a56714 | add authMiddleware.js | Fri Nov 14 14:46:19 2025
+src/middlewares/authMiddleware.js
+
+Commit: 47a7a7e | add authController.js | Fri Nov 14 14:43:22 2025
+src/controllers/authController.js
+
+Commit: 42dc214 | modification of .gitignore | Fri Nov 14 12:33:42 2025
+Commit: 77f010d | modification local of README.md | Fri Nov 14 12:28:58 2025
+README.md
+
+Commit: f2e89b4 | modification .gitignore add *.lock.backup | Fri Nov 14 12:27:47 2025
+.gitignore
+
+Commit: 2fe47db | remove author section from README | Fri Nov 14 12:25:33 2025
+README.md
+
+Commit: be12e49 | modification of commits_log.txt | Fri Nov 14 12:15:24 2025
+commits_log.txt
+
+Commit: bf68318 | modification .gitignore | Fri Nov 14 12:10:37 2025
+.gitignore
+
+Commit: 09c4c8d | add commits_logs.txt | Fri Nov 14 11:57:12 2025
+commits_log.txt
+
+Commit: 094c117 | adding answers to the question | Fri Nov 14 11:49:13 2025
+reponse.txt
+
+Commit: 2f47532 | modification of README.md | Fri Nov 14 11:46:33 2025
+README.md
+
+Commit: 1cd856e | add server.js | Fri Nov 14 11:44:50 2025
+server.js
+
+Commit: eb62c95 | add .gitignore | Fri Nov 14 11:44:13 2025
+.gitignore
+
+Commit: aa17ed2 | modification of migrations.sql, example of insert | Fri Nov 14 11:43:10 2025
+src/postgres/migrations.sql
+
+Commit: e76301a | add .env.example | Fri Nov 14 11:37:42 2025
+.env.example
+
+Commit: d7946e0 | modification of produitController.js  adding a comment | Fri Nov 14 11:35:09 2025
+src/controllers/produitController.js
+
+Commit: 20f72eb | modification of mouvementController.js  adding a comment | Fri Nov 14 11:33:03 2025
+src/controllers/mouvementController.js
+
+Commit: 7dc35f6 | modification of depotController.js  adding a comment | Fri Nov 14 11:30:51 2025
+src/controllers/depotController.js
+
+Commit: cb74a12 | add src and this and its subfolders | Fri Nov 14 11:27:13 2025
+src/controllers/depotController.js
+src/controllers/mouvementController.js
+
+Commit: 5f09994 |  add src | Fri Nov 14 11:19:58 2025
+src/controllers/depotController.js
+src/controllers/mouvementController.js
+src/controllers/produitController.js
+src/middlewares/errorHandler.js
+src/models/pgClient.js
+src/mongo-models/Zone.js
+src/routes/index.js
+
+Commit: 9fc3184 | add package-lock.json | Fri Nov 14 10:03:53 2025
+package-lock.json
+
+Commit: 209b07f | add package.json | Fri Nov 14 10:02:34 2025
+package.json
+
+Commit: 72785c1 | Initial commit | Fri Nov 14 09:53:59 2025
+README.md
