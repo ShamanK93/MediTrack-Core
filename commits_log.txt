@@ -1,0 +1,83 @@
+commit 094c117d68ff1b9619112bf966016ffb8bc6e846 (HEAD -> main, origin/main, origin/HEAD)
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:49:13 2025 +0100
+
+    adding answers to the question
+
+commit 2f47532a4fad6800ed2ce5689857724fb6a0214c
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:46:33 2025 +0100
+
+    modification of README.md
+
+commit 1cd856ea7787d94394cba4313d632da4c442b47e
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:44:50 2025 +0100
+
+    add server.js
+
+commit eb62c95b4c098414c53d50e27e47a53ac94afcab
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:44:13 2025 +0100
+
+    add .gitignore
+
+commit aa17ed2c483fd436c51fad258d0ddc61072bc015
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:43:10 2025 +0100
+
+    modification of migrations.sql, example of insert
+
+commit e76301adcc041a5b4506b1cc673106126207adc0
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:37:42 2025 +0100
+
+    add .env.example
+
+commit d7946e07cdd246cb5667e9278c115ee71482f894
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:35:09 2025 +0100
+
+    modification of produitController.js  adding a comment
+
+commit 20f72eb296b72abf6c23c4fb7dabb3c713dc915a
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:33:03 2025 +0100
+
+    modification of mouvementController.js  adding a comment
+
+commit 7dc35f613bdb171ce3075d3c803ce4fe7b628737
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:30:51 2025 +0100
+
+    modification of depotController.js  adding a comment
+
+commit cb74a12ddffc83750df072470bd944df2f96b99b
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:27:13 2025 +0100
+
+    add src and this and its subfolders
+
+commit 5f099949e16a92f591302aa0a5d9cbc74bccbae5
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 11:19:58 2025 +0100
+
+     add src
+
+commit 9fc3184b8c94e7ea0551247049ccd76c25a1105d
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 10:03:53 2025 +0100
+
+    add package-lock.json
+
+commit 209b07feb76e117792329b94dc144c3e86c7841e
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 10:02:34 2025 +0100
+
+    add package.json
+
+commit 72785c1d0b3e142fbbebb51a263e3d324acc13de
+Author: ShamanK93 <158584781+ShamanK93@users.noreply.github.com>
+Date:   Fri Nov 14 09:53:59 2025 +0100
+
+    Initial commit
