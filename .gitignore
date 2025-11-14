@@ -7,9 +7,6 @@ npm-debug.log
 *.lock
 dump/
 
-# PostgreSQL
-*.sql
-
 # OS
 .DS_Store
 Thumbs.db
