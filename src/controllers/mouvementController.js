@@ -15,13 +15,13 @@ exports.create = async (req, res) => {
   try {
     await pool.query('BEGIN');
 
-    // Insérer mouvement
+    
     const { rows } = await pool.query(
       'INSERT INTO mouvements (type, quantite, produit_id) VALUES ($1,$2,$3) RETURNING *',
       [type, quantite, produit_id]
     );
 
-    // Mettre à jour le stock
+
     const prod = await pool.query('SELECT quantite FROM produits WHERE id=$1', [produit_id]);
     let newQty = prod.rows[0].quantite;
     newQty += type === 'IN' ? quantite : -quantite;

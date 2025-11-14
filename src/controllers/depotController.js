@@ -1,13 +1,7 @@
-// Si tu veux utiliser MongoDB plus tard, tu importeras ton modèle ici
-// const Zone = require('../models/zoneModel'); 
-
-// Route GET /depots/:id/zones
 exports.getZones = async (req, res) => {
   const depotId = req.params.id;
   
   try {
-    // Pour l'instant, on renvoie un exemple statique
-    // Plus tard, tu feras Zone.find({ depot_id: depotId })
     res.json({
       depot_id: depotId,
       zones: [
